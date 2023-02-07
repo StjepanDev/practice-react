@@ -1,5 +1,6 @@
 import "./App.css";
-import TestimonialsApp from "./projects/04-testimonials-app/TestimonialsApp";
+import AlertApp from "./projects/05-alerts/AlertApp";
+// import TestimonialsApp from "./projects/04-testimonials-app/TestimonialsApp";
 
 // import LikePhotoApp from "./projects/03-like-my-photo/LikePhotoApp";
 // import RandomizeColor from "./projects/02-randomize-colors/RandomizeColor";
@@ -11,7 +12,8 @@ function App() {
       {/* <EsignatureApp /> */}
       {/* <RandomizeColor /> */}
       {/* <LikePhotoApp /> */}
-      {<TestimonialsApp />}
+      {/* {<TestimonialsApp />} */}
+      {<AlertApp />}
     </div>
   );
 }
