@@ -1,5 +1,6 @@
 import "./App.css";
-import TempControllerApp from "./projects/06-temperature-controller/TempControllerApp";
+import LightAndDark from "./projects/07-light-and-dark-mode/LightAndDark";
+// import TempControllerApp from "./projects/06-temperature-controller/TempControllerApp";
 // import AlertApp from "./projects/05-alerts/AlertApp";
 // import TestimonialsApp from "./projects/04-testimonials-app/TestimonialsApp";
 
@@ -15,7 +16,8 @@ function App() {
       {/* <LikePhotoApp /> */}
       {/* {<TestimonialsApp />} */}
       {/* {<AlertApp />} */}
-      {<TempControllerApp />}
+      {/* {<TempControllerApp />} */}
+      {<LightAndDark />}
     </div>
   );
 }
