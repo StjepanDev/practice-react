@@ -1,5 +1,6 @@
 import "./App.css";
-import AlertApp from "./projects/05-alerts/AlertApp";
+import TempControllerApp from "./projects/06-temperature-controller/TempControllerApp";
+// import AlertApp from "./projects/05-alerts/AlertApp";
 // import TestimonialsApp from "./projects/04-testimonials-app/TestimonialsApp";
 
 // import LikePhotoApp from "./projects/03-like-my-photo/LikePhotoApp";
@@ -13,7 +14,8 @@ function App() {
       {/* <RandomizeColor /> */}
       {/* <LikePhotoApp /> */}
       {/* {<TestimonialsApp />} */}
-      {<AlertApp />}
+      {/* {<AlertApp />} */}
+      {<TempControllerApp />}
     </div>
   );
 }
