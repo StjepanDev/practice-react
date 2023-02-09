@@ -1,9 +1,9 @@
 import "./App.css";
-import LightAndDark from "./projects/07-light-and-dark-mode/LightAndDark";
+import SlideToUnlock from "./projects/08-slide-to-unlock/SlideToUnlock";
+// import LightAndDark from "./projects/07-light-and-dark-mode/LightAndDark";
 // import TempControllerApp from "./projects/06-temperature-controller/TempControllerApp";
 // import AlertApp from "./projects/05-alerts/AlertApp";
 // import TestimonialsApp from "./projects/04-testimonials-app/TestimonialsApp";
-
 // import LikePhotoApp from "./projects/03-like-my-photo/LikePhotoApp";
 // import RandomizeColor from "./projects/02-randomize-colors/RandomizeColor";
 // import EsignatureApp from "./projects/01-e-signature-app/EsignatureApp";
@@ -17,7 +17,8 @@ function App() {
       {/* {<TestimonialsApp />} */}
       {/* {<AlertApp />} */}
       {/* {<TempControllerApp />} */}
-      {<LightAndDark />}
+      {/* {<LightAndDark />} */}
+      {<SlideToUnlock />}
     </div>
   );
 }
