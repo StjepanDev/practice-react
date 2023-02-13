@@ -1,5 +1,7 @@
 import "./App.css";
-import HiddenSearchBar from "./projects/10-hidden-search-bar/HiddenSearchBar";
+import ProgressBarConteiner from "./projects/12-progress-bar/ProgressBarConteiner";
+// import MagicPopup from "./projects/11-magic-popup/MagicPopup";
+// import HiddenSearchBar from "./projects/10-hidden-search-bar/HiddenSearchBar";
 // import SliderApp from "./projects/09-slider/SliderApp";
 // import SlideToUnlock from "./projects/08-slide-to-unlock/SlideToUnlock";
 // import LightAndDark from "./projects/07-light-and-dark-mode/LightAndDark";
@@ -22,7 +24,9 @@ function App() {
       {/* {<LightAndDark />} */}
       {/* {<SlideToUnlock />} */}
       {/* {<SliderApp />} */}
-      {<HiddenSearchBar />}
+      {/* {<HiddenSearchBar />} */}
+      {/* {<MagicPopup />} */}
+      {<ProgressBarConteiner />}
     </div>
   );
 }
