@@ -28,10 +28,13 @@ export default function ProgressBarConteiner() {
 
   useEffect(() => {
     uiInput.current.focus();
-
-    //   return () => {
-
-    //   }
+    const intervalId = setInterval(
+      () => setCompleted(Math.floor(Math.random() * 100) + 1),
+      2000
+    );
+    return () => {
+      clearInterval(intervalId);
+    };
   }, []);
 
   return (
