@@ -3,7 +3,7 @@ import Title from "../components/Title";
 import { Progressbar } from "../components/Progressbar";
 
 export default function ProgressBarConteiner() {
-  const [completed, setCompleted] = useState();
+  const [completed, setCompleted] = useState(49);
   const [status, setStatus] = useState({
     ui: 55,
     ux: 43,
@@ -73,6 +73,10 @@ export default function ProgressBarConteiner() {
       {projectData.map((d, i) => (
         <Progressbar bgColor={d.bgColor} key={i} completed={d.completed} />
       ))}
+      <Progressbar
+        bgColor={completed < 50 ? "crimson" : "green"}
+        completed={completed}
+      />
     </div>
   );
 }
